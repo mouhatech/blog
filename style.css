@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #0f0; /* Texte vert */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile {
+    border: 2px solid #0f0; /* Bordure verte */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.profile {
+    border: 2px solid #0f0; /* Bordure verte */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #222; /* Fond gris foncé */
+    color: #0f0; /* Texte vert */
+}
+
+.profile pre {
+    margin-bottom: 10px;
+}
+
+.profile button {
+    background-color: #0f0; /* Fond vert */
+    color: #111; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.profile button:hover {
+    background-color: #090; /* Fond vert foncé au survol */
+}
+
+button {
+    background-color: #0f0; /* Fond vert */
+    color: #111; /* Texte noir */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #090; /* Fond vert foncé au survol */
+}
+
+footer {
+    background-color: #111;
+    color: #0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links a {
+    color: #0f0; /* Liens verts */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+
+    .footer {
+        background-color: #111;
+        color: #0f0;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .animation {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .animation span {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        animation: slideUp 8s infinite;
+    }
+    
+    @keyframes slideUp {
+        0% {
+            top: 100%;
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        90% {
+            opacity: 1;
+        }
+        100% {
+            top: -100%;
+            opacity: 0;
+        }
+    }
