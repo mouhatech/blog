@@ -14,10 +14,13 @@ function downloadCV() {
         document.body.removeChild(link);
     }
 
-
-
-function showProjects() {
-    var url = "projet.html";
-    
-    window.open(url, "_blank");
+function showImg() {
+    var password = prompt("Veuillez entrer le mot de passe :");
+    if (password === "Zero_trust") {
+        var url = "image.html";
+        window.open(url, "_blank");
+    } else {
+        alert("Mot de passe incorrect. Vous n'êtes peut-être pas le bienvenu.");
+    }
 }
+
